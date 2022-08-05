@@ -24,5 +24,11 @@ namespace LeagueHUB_UI
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var secondWindow = new Match();
+            secondWindow.Show();
+        }
     }
 }

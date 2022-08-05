@@ -7,7 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Filip" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
+        <Button x:Name="AddMatchBtn" Content="Add match" HorizontalAlignment="Left" Margin="578,75,0,0" VerticalAlignment="Top" Height="27" Width="81" Click="Button_Click"/>
     </Grid>
 </Window>
