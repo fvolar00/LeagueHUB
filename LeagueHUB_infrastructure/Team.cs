@@ -18,7 +18,6 @@ namespace LeagueHUB_infrastructure
         public int GoalsConceded { get; set; }
         public List<Player> Players { get; set; }
         public Coach Coach { get; set; }
-        public TeamApplication Application { get; set; }
 
 
         public int goalDifference()

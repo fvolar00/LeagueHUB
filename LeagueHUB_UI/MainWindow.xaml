@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="AddMatchBtn" Content="Add match" HorizontalAlignment="Left" Margin="578,75,0,0" VerticalAlignment="Top" Height="27" Width="81" Click="Button_Click"/>
+        <Button x:Name="AddMatchBtn" Content="Add match" HorizontalAlignment="Left" Margin="52,113,0,0" VerticalAlignment="Top" Height="33" Width="98" Click="Button_Click" FontSize="18"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=4}" Margin="320,24,26,233"/>
+        <Button Content="Add team" HorizontalAlignment="Left" Margin="52,50,0,0" VerticalAlignment="Top" FontSize="18" Width="98"/>
     </Grid>
 </Window>

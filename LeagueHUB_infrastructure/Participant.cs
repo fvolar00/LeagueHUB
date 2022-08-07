@@ -6,16 +6,15 @@ namespace LeagueHUB_infrastructure
     {
         public int Id { get; set; }
         public Team Team { get; set; }
+        public int TeamId { get; set; }
 
     }
 
     public class Coach : Participant
     {
-        public int CoachId { get; set; }
     }
 
     public class Player : Participant
     {
-        public int PlayerId { get; set; }
     }
 }
