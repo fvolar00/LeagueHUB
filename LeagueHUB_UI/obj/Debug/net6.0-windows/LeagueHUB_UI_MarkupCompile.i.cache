@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\Programiranje\LeagueHUB\LeagueHUB_UI\App.xaml
-31103208329
+3569552797
 
-71928236870
-199-123151433
-MainWindow.xaml;Match.xaml;Team.xaml;
+71138219913
+231495816966
+MainWindow.xaml;Match.xaml;TeamAdder.xaml;
 
-False
+True
 

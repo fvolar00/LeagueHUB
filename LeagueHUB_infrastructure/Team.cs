@@ -10,14 +10,14 @@ namespace LeagueHUB_infrastructure
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int GamesPlayed { get; set; }
-        public int Wins { get; set; }   
-        public int Draws { get; set; }
-        public int Losses { get; set; } 
-        public int GoalsScored { get; set; }
-        public int GoalsConceded { get; set; }
-        public List<Player> Players { get; set; }
-        public Coach Coach { get; set; }
+        public int GamesPlayed { get; set; } = 0;
+        public int Wins { get; set; }= 0;
+        public int Draws { get; set; }=0;
+        public int Losses { get; set; } = 0;
+        public int GoalsScored { get; set; } = 0;
+        public int GoalsConceded { get; set; } = 0;
+        public List<Player>? Players { get; set; }
+        public Coach? Coach { get; set; }
 
 
         public int goalDifference()

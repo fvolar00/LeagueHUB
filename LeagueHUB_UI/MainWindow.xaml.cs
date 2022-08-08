@@ -30,5 +30,11 @@ namespace LeagueHUB_UI
             var secondWindow = new Match();
             secondWindow.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var secondWindow = new TeamAdder();
+            secondWindow.Show();
+        }
     }
 }
