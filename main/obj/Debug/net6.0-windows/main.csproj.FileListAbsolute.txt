@@ -94,3 +94,11 @@ D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cr
 D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\Microsoft.Extensions.Identity.Core.dll
 D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\Microsoft.Extensions.Identity.Stores.dll
+D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\EntityFramework.dll
+D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Programiranje\LeagueHUB\main\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

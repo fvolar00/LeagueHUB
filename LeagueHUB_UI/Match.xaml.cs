@@ -26,7 +26,7 @@ namespace LeagueHUB_UI
             InitializeComponent();
             using(LeagueContext context = new LeagueContext())
             {
-                myTeams = context.Teams.ToList();
+                myTeams = context.Team.ToList();
                 HomePicker.ItemsSource = myTeams;
             }
         }
