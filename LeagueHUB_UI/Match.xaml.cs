@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeagueHUB_infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,19 +20,15 @@ namespace LeagueHUB_UI
     /// </summary>
     public partial class Match : Window
     {
+        List<Team> myTeams { get; set; }
         public Match()
         {
             InitializeComponent();
-        }
-
-        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
+            using(LeagueContext context = new LeagueContext())
+            {
+                myTeams = context.Teams.ToList();
+                HomePicker.ItemsSource = myTeams;
+            }
         }
 
         private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)

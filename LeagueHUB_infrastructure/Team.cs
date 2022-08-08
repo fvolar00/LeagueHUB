@@ -17,7 +17,7 @@ namespace LeagueHUB_infrastructure
         public int GoalsScored { get; set; } = 0;
         public int GoalsConceded { get; set; } = 0;
         public List<Player>? Players { get; set; }
-        public Coach? Coach { get; set; }
+        public Coach Coach { get; set; }
 
 
         public int goalDifference()
