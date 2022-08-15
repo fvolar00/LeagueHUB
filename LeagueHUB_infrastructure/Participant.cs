@@ -3,20 +3,19 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LeagueHUB_infrastructure
 {
-    public class Participant
+    public abstract class Participant
     {
-        public int Id { get; set; }
         public Team? Team { get; set; }
         public int TeamId { get; set; }
         public string Name { get; set; }
 
     }
-    [NotMapped]
     public class Coach : Participant
     {
+        public int Id { get; set; }
     }
-    [NotMapped]
     public class Player : Participant
     {
+        public int Id { get; set; }
     }
 }

@@ -9,21 +9,18 @@
     <Grid>
 
         <Label x:Name="HomeLbl" Content="Home" HorizontalAlignment="Left" Margin="179,100,0,0" VerticalAlignment="Top" FontSize="22"/>
-        <ComboBox x:Name="HomePicker" Margin="135,145,0,0" SelectionChanged="ComboBox_SelectionChanged_1" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.565,0.462" Height="40" Width="157">
-            <ComboBoxItem>Boston</ComboBoxItem>
-            <ComboBoxItem>Real</ComboBoxItem>
+        <ComboBox x:Name="HomePicker" Margin="135,145,0,0" SelectionChanged="ComboBox_SelectionChanged_1" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.565,0.462" Height="40" Width="157" FontSize="22">
+        
         </ComboBox>
         <ComboBox x:Name="GuestPicker" Margin="500,142,0,0" SelectionChanged="ComboBox_SelectionChanged_2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="157">
-            <ComboBoxItem>Boston</ComboBoxItem>
-            <ComboBoxItem>Real</ComboBoxItem>
+
         </ComboBox>
         <Label Content="Guest" HorizontalAlignment="Left" Margin="539,103,0,0" VerticalAlignment="Top" Height="34" Width="79" FontSize="22"/>
-        <TextBox x:Name="HomeGoals" HorizontalAlignment="Left" Margin="324,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" Background="#FFC4BDBD" Height="43"/>
-        <TextBox x:Name="GuestGoals" HorizontalAlignment="Left" Margin="417,144,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Background="#FFC4BDBD" Width="48" Height="43"/>
+        <TextBox x:Name="HomeGoals" HorizontalAlignment="Left" Margin="324,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" Background="#FFC4BDBD" Height="43" FontSize="22"/>
+        <TextBox x:Name="GuestGoals" HorizontalAlignment="Left" Margin="417,144,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Background="#FFC4BDBD" Width="48" Height="43" FontSize="22"/>
         <Label Content=":" HorizontalAlignment="Left" Margin="386,147,0,0" VerticalAlignment="Top" FontSize="20"/>
         <ComboBox x:Name="RefereePicker" Margin="393,249,0,0" SelectionChanged="ComboBox_SelectionChanged_3" VerticalAlignment="Top" HorizontalAlignment="Left" Width="157" Height="40" >
-            <ComboBoxItem>Boston</ComboBoxItem>
-            <ComboBoxItem>Real</ComboBoxItem>
+            
         </ComboBox>
         <Label Content="Referee" HorizontalAlignment="Left" Margin="255,249,0,0" VerticalAlignment="Top" Height="40" Width="93" VerticalContentAlignment="Center" FontSize="22"/>
         <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" Margin="295,332,0,0" VerticalAlignment="Top" Height="43" Width="197" FontSize="22" FirstDayOfWeek="Wednesday"/>

@@ -28,6 +28,11 @@ namespace LeagueHUB_UI
             {
                 myTeams = context.Team.ToList();
                 HomePicker.ItemsSource = myTeams;
+                GuestPicker.ItemsSource = myTeams;
+                HomePicker.DisplayMemberPath = "Name";
+                HomePicker.SelectedValue = "Name";
+                GuestPicker.DisplayMemberPath = "Name";
+                GuestPicker.SelectedValue = "Name";
             }
         }
 

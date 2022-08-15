@@ -43,9 +43,7 @@ namespace LeagueHUB_UI
                 Coach coach = new Coach() { Name = coachname };
                 team.Coach = coach;
                 context.Team.Add(team);
-                context.SaveChanges();
-                context.Coach.Add(coach);
-                context.SaveChanges();
+                context.SaveChanges();               
             }
         }
        
