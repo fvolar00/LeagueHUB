@@ -34,11 +34,6 @@ namespace LeagueHUB_UI
 
             if (teamname != null && coachname != null)
             {
-                //Team team = new Team() { Name = teamname };
-                //team.Coach = new Coach() { Name = coachname };
-                //context.Team.Add(team);
-                //context.SaveChanges();
-
                 Team team = new Team() { Name = teamname };
                 Coach coach = new Coach() { Name = coachname };
                 team.Coach = coach;

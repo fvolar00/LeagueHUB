@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeagueHUB_infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,11 @@ namespace LeagueHUB_UI
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<Team> teams;
+
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();           
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -35,6 +38,27 @@ namespace LeagueHUB_UI
         {
             var secondWindow = new TeamAdder();
             secondWindow.Show();
+        }
+
+        private void Table_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void AddReferee_Click(object sender, RoutedEventArgs e)
+        {
+            var secondWindow = new RefereeAdder();
+            secondWindow.Show();
+        }
+
+        private void RefreshBtn_Click(object sender, RoutedEventArgs e)
+        {
+            using (LeagueContext context = new LeagueContext())
+            {
+                teams = context.Team.ToList();
+                Table.ItemsSource = teams;
+
+            }
         }
     }
 }

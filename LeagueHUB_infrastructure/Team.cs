@@ -10,6 +10,7 @@ namespace LeagueHUB_infrastructure
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public int Points { get; set; } = 0;
         public int GamesPlayed { get; set; } = 0;
         public int Wins { get; set; }= 0;
         public int Draws { get; set; }=0;
@@ -19,18 +20,6 @@ namespace LeagueHUB_infrastructure
         public List<Player>? Players { get; set; }
         public Coach Coach { get; set; }
 
-
-        public int goalDifference()
-        {
-            int gd = GoalsScored - GoalsConceded;
-            return gd;
-        }
-
-        public int getPoints()
-        {
-            int p = Wins * 3 + Draws * 1;
-            return p;
-        }
 
     }
 }

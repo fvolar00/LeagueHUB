@@ -10,6 +10,9 @@
     <Compile Update="Match.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="RefereeAdder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="TeamAdder.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,6 +22,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Match.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RefereeAdder.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="TeamAdder.xaml">

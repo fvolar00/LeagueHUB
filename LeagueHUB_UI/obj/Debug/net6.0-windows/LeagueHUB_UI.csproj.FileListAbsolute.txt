@@ -93,3 +93,5 @@ D:\Programiranje\LeagueHUB\LeagueHUB_UI\bin\Debug\net6.0-windows\runtimes\win-x6
 D:\Programiranje\LeagueHUB\LeagueHUB_UI\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
 D:\Programiranje\LeagueHUB\LeagueHUB_UI\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Programiranje\LeagueHUB\LeagueHUB_UI\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Programiranje\LeagueHUB\LeagueHUB_UI\obj\Debug\net6.0-windows\RefereeAdder.g.cs
+D:\Programiranje\LeagueHUB\LeagueHUB_UI\obj\Debug\net6.0-windows\RefereeAdder.baml
